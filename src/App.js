@@ -1,25 +1,43 @@
-import logo from './logo.svg';
 import './App.css';
+import MemoryCard from './components/memoryCard';
 
-function App() {
+function MemoryGame() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Memory Game</h1>
+        <div id='subtitle'>Match Cards to Win!</div>
       </header>
+      <div className='cardHolder'>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      </div>
+      <div className='cardHolder'>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      </div>
+      <div className='cardHolder'>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      </div>
+      <div className='cardHolder'>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      <MemoryCard/>
+      </div>
+      
+     
+      
+        
     </div>
   );
 }
 
-export default App;
+export default MemoryGame;

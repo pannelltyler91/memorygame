@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+.cardHolder{
+  display:inline-block;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -15,13 +18,18 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height:200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+#subtitle {
+height:150px;
+color:#666666;
 }
 
 .App-link {
